@@ -8,3 +8,16 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ### Screenshot
 
 ![screenshot](./screenshot.png)  
+
+- Live Site URL: [Live Preview](https://ayomide0908.github.io/food-recipe/)
+
+- ### Built with
+
+- Semantic **HTML5**
+- **CSS custom properties**
+
+- 👤 Author
+
+Frontend Mentor – @ayomide0908
+
+Twitter – @💭Dev_Bankole
