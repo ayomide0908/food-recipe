@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      line-height: 1.6;
+  padding: 20px;
+  background-color: hsl(30, 54%, 90%);
+      color: hsl(24, 5%, 18%);
+    font-family: 'Outfit', sans-serif;
+}
+.cardcontainer{
+   max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.recipeimg{
+      width: 100%;
+  border-radius: 10px;
+}
+.title{
+  font-family: 'Young Serif', serif;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  color: hsl(14, 45%, 36%);
+  margin-top: 20px;
+    font-weight: 400;
+}
+ul, ol {
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+strong{
+     color: hsl(14, 45%, 36%); 
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 760px) {
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: white; /* mobile background is plain white */
+  color: hsl(24, 5%, 18%);
+  line-height: 1.6;
+  padding: 0; /* no outer padding on mobile */
+  margin: 0;
+}
+
+.cardcontainer{
+  max-width: 100%; /* full width on mobile */
+  background: white;
+  padding: 10px;
+}
+
+.recipeimg {
+  width: 100%;
+  margin: 0;
+  border-radius: 0; /* no rounded corners on mobile */
+}
+.img{
+
+margin: -20px;
+padding: 0;
+}
+
+
+.title {
+  font-family: 'Young Serif', serif;
+  margin: 20px;
+  font-size: 1.8rem;
+}
+.preparation{
+    background: rgb(240, 220, 240);
+  padding-left: 10px;
+  justify-content: center;
+    padding-bottom: 18px;
+    padding-top: 5px;
+    border-radius: 10px;
+    
+}
+.ingredients{
+    border-bottom: 1px solid rgb(240, 220, 240);
+    padding: 2px;
+}
+
+.instructions{
+    border-bottom: 1px solid rgb(240, 220, 240);
+    padding: 2px;
+}
+div{
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  color: hsl(14, 45%, 36%);
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+}
