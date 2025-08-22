@@ -20,4 +20,4 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 Frontend Mentor – @ayomide0908
 
-Twitter – @💭Dev_Bankole
+Twitter – @Dev_Bankole
